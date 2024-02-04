@@ -4,22 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14e661e9-04af-4151-9134-54957ccd4730" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PracticeOne.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/in/Rushi/AddParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/in/Rushi/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/in/Rushi/GCD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/in/Rushi/LCM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/in/Rushi/PrimeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/in/Rushi/PrimeNumberUptoGivenNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/in/Rushi/ReversString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/in/Rushi/ReverseNumber.java" afterDir="false" />
+    <list default="true" id="14e661e9-04af-4151-9134-54957ccd4730" name="Changes" comment="New Commit">
+      <change afterPath="$PROJECT_DIR$/src/Abstract/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract/Shapes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract/TestShapes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exception/HandleExp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FileHandling/FileRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FileHandling/FileWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface/Parrot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface/TestBird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MethodOverloading/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MethodOverloading/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MethodOverriding/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MethodOverriding/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/StringRev.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/StringRevStringTokenizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -49,28 +53,44 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.AddParams.executor": "Run",
+    "Application.Calculator.executor": "Run",
+    "Application.Car.executor": "Run",
     "Application.Factorial.executor": "Run",
+    "Application.FileRead.executor": "Run",
+    "Application.FileWrite.executor": "Run",
     "Application.GCD.executor": "Run",
+    "Application.HandleExp.executor": "Run",
     "Application.LCM.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.PrimeNumber.executor": "Run",
     "Application.PrimeNumberUpToGivenNumber.executor": "Run",
     "Application.PrimeNumberUptoGivenNumber.executor": "Run",
     "Application.ReversString.executor": "Run",
     "Application.ReverseNumber.executor": "Run",
+    "Application.StringRev.executor": "Run",
+    "Application.StringRevStringTokenizer.executor": "Run",
+    "Application.TestBird.executor": "Run",
+    "Application.TestShapes.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/RUSHIKESH/IdeaProjects/JavaPracticeSetOne",
     "onboarding.tips.debug.path": "C:/Users/RUSHIKESH/IdeaProjects/PracticeOne/src/Main.java"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ReversString">
-    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.Rushi.PrimeNumber" />
+  <component name="RunManager" selected="Application.Car">
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MethodOverloading.Calculator" />
       <module name="PracticeOne" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.Rushi.*" />
+          <option name="PATTERN" value="MethodOverloading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNumberUpToGivenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.Rushi.PrimeNumberUpToGivenNumber" />
+    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MethodOverriding.Car" />
       <module name="PracticeOne" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.Rushi.*" />
+          <option name="PATTERN" value="MethodOverriding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNumberUptoGivenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.Rushi.PrimeNumberUptoGivenNumber" />
+    <configuration name="FileRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileHandling.FileRead" />
       <module name="PracticeOne" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.Rushi.*" />
+          <option name="PATTERN" value="FileHandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReversString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.Rushi.ReversString" />
+    <configuration name="FileWrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileHandling.FileWrite" />
       <module name="PracticeOne" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.Rushi.*" />
+          <option name="PATTERN" value="FileHandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.Rushi.ReverseNumber" />
+    <configuration name="HandleExp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exception.HandleExp" />
       <module name="PracticeOne" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.Rushi.*" />
+          <option name="PATTERN" value="Exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReversString" />
-        <item itemvalue="Application.ReverseNumber" />
-        <item itemvalue="Application.PrimeNumberUptoGivenNumber" />
-        <item itemvalue="Application.PrimeNumberUpToGivenNumber" />
-        <item itemvalue="Application.PrimeNumber" />
+        <item itemvalue="Application.Car" />
+        <item itemvalue="Application.Calculator" />
+        <item itemvalue="Application.FileRead" />
+        <item itemvalue="Application.FileWrite" />
+        <item itemvalue="Application.HandleExp" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +176,84 @@
       <option name="presentableId" value="Default" />
       <updated>1705725331282</updated>
     </task>
+    <task id="LOCAL-00001" summary="New Commit">
+      <option name="closed" value="true" />
+      <created>1705732316092</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705732316093</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="date">
+                    <value>
+                      <list>
+                        <option value="1705646085651" />
+                        <option value="" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -165,6 +262,15 @@
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/MethodOverriding/Vehicle.java</url>
+          <line>14</line>
+          <properties class="MethodOverriding.Vehicle" method="service">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
